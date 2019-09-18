@@ -1,0 +1,34 @@
+.photo {
+	display: grid;
+	height: 40%;
+	margin: 2% 0 2% 0;
+}
+
+.images{
+	max-height: 400px ;
+	max-width: 500px;
+}
+.photo-container {
+	width: 80%;
+	align-items: center;
+	align-self: center;
+	border: 2px solid black;
+	border-radius: 15px;
+	height: 100%;
+	justify-self: center;
+	max-width: 550px;
+}
+
+.mainImage{
+	max-height: 200px;
+}
+
+.imageContainer{
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+}
+
+.deleteImage{
+	cursor: pointer;
+}

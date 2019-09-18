@@ -1,0 +1,51 @@
+{
+  "HEADER": {
+    "LOG_IN": "Profile",
+    "CATALOG": "Catalog",
+    "SEARCH": "Search",
+    "PUBLISH": "Publish"
+  },
+  "CATALOG_PAGE": {
+    "FILTERS": {
+      "FILTERS_BY": "Filters by :",
+      "PLACE": "Place",
+      "PRICE": "Price",
+      "TO": "to",
+      "RECOMMENDED": "Recommended"
+    },
+    "SORT_TYPES": {
+      "SORT_BY": "Sort by :",
+      "PRICE": "Price",
+      "HIGH_TO_LOW": "High to low",
+      "LOW_TO_HIGH": "Low to high",
+      "TITLE": "Title",
+      "ASCENDING": "Ascending",
+      "DESCENDING": "Descending",
+      "RATING": "Rating",
+      "FROM_GOOD_TO_BAD": "From good to bad",
+      "FROM_BAD_TO_GOOD": "From bad to good"
+    }
+  },
+  "LOG_IN_MODAL": {
+    "GREETING": "Log In - It is quick and simple",
+    "EMAIL": "Email...",
+    "PASSWORD": "Password...",
+    "LOG_IN_BUTTON": "Log In",
+    "REGISTER_BUTTON": "Register",
+    "REQUIRED_FIELD": "This field is required",
+    "WRONG_EMAIL_FORMAT": "Invalid email format"
+  },
+  "REGISTRATION_MODAL": {
+    "PURPOSE": "Register for free to have more opportunities",
+    "NAME": "Name...",
+    "REQUIRED_FIELD": "This field is required",
+    "SURNAME": "Surname...",
+    "LOG_IN": "LogIn...",
+    "EMAIL": "Email...",
+    "INVALID_EMAIL": "Invalid email format",
+    "PASSWORD": "Password...",
+    "INVALID_PASSWORD": "Invalid password format. Required format is at least 8 characters.",
+    "REPEAT_PASSWORD": "RepeatPassword... ",
+    "INVALID_REPEAT_PASSWORD": "This password should be the same as the previous one."
+  }
+}

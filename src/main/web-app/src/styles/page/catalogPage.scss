@@ -1,0 +1,58 @@
+.catalog-page {
+	display: flex;
+	height: 90%;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.filters {
+	height: 100%;
+	//padding-left: 1%;
+	//text-align: left;
+	width: 10%
+}
+
+.sort {
+	text-align: left;
+	width: 206px;
+}
+
+.items {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	padding-top: 30px;
+	width: 80%;
+}
+
+.category {
+	cursor: pointer;
+	height: fit-content;
+	margin: 10px;
+	width: 280px;
+}
+
+.category-title {
+}
+
+.category-title:hover {
+	color: #08804c;
+	cursor: pointer;
+}
+
+.option {
+	margin: 10px;
+}
+
+.country-dropdown {
+	width: 90%;
+}
+
+.filter-option {
+	margin-bottom: 10px;
+}
+
+.price-input {
+	margin: 3%;
+	width: 35%;
+}

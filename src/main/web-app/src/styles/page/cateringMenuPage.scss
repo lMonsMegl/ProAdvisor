@@ -1,0 +1,65 @@
+.catering-menu-page {
+	height: 90%;
+	padding: 0 5%;
+	width: 100%;
+}
+
+.menu-title {
+	display: flex;
+	justify-content: space-between;
+}
+
+.chapter {
+	text-align: left;
+}
+
+.addSubChapter{
+	color: #ff050c;
+}
+
+.addDish{
+	color: #08804c;
+}
+
+.chapter-title {
+	border-bottom: 1px solid grey;
+	display: flex;
+	//font-size: 18px;
+	justify-content: space-between;
+}
+
+.subChapter-title {
+	display: flex;
+	//font-size: 14px;
+	justify-content: space-between;
+}
+
+.dishes {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.dish {
+	border: 1px solid black;
+	margin: 10px 5px;
+	padding: 7px;
+}
+
+.dish-image {
+	max-width: 200px;
+	max-height: 130px;
+}
+
+.button-without-styles {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	height: fit-content;
+	outline: none;
+	text-decoration: none;
+	width: fit-content;
+}
+
+button:focus {
+	outline: none !important;
+}

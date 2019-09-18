@@ -1,0 +1,40 @@
+.add-item-page {
+	height: 90%;
+	margin: 0 15% 0 15%;
+	text-align: center;
+}
+
+.image {
+	max-height: 250px;
+	max-width: 500px;
+}
+
+.title-input {
+	height: 30px;
+	margin-top: 20px;
+	max-width: 600px;
+	width: 80%;
+}
+
+.description-input {
+	height: 90px;
+	max-width: 600px;
+	width: 80%;
+}
+
+.get-item-image{
+	padding: 20px 0;
+}
+
+.select-categories {
+	display: flex;
+	justify-content: center;
+}
+
+.select {
+	width: 200px;
+}
+
+.add-item-button{
+	padding-top: 15px;
+}

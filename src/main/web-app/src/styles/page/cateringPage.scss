@@ -1,0 +1,61 @@
+.catering-page {
+	display: flex;
+	height: 90%;
+	padding: 0 15% 0 15%;
+	width: 100%;
+}
+
+.catering {
+	width: 100%;
+}
+
+.description {
+	padding-top: 10px;
+	text-align: left;
+}
+
+.description-title {
+	text-align: center;
+}
+
+.catering-menu-preview {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 5px;
+}
+
+.comments {
+	padding-top: 10px;
+}
+
+.user {
+	align-self: center;
+	text-align: center;
+}
+
+.add-comment {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	border: 2px solid black;
+}
+
+.comment-title {
+	height: 30px;
+	width: 90%;
+}
+
+.comment-rating {
+	padding: 5px 0;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.comment-description{
+	width: 90%;
+}

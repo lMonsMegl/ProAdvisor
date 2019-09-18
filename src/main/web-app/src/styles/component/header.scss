@@ -1,0 +1,48 @@
+.header {
+	display: grid;
+	font-family: "Bookman Old Style", sans-serif;
+	font-size: 17px;
+	grid-template-columns: 2fr 6fr 2fr 3fr 2fr 2fr;
+	height: 10%;
+	margin: 0 15% 0 15%;
+}
+
+.header-item {
+	display: grid;
+	align-self: center;
+	justify-self: center;
+	width: 100%;
+	cursor: pointer;
+}
+
+a {
+	align-items: center;
+	color: black;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	text-decoration: none;
+	width: 100%;
+}
+
+.register-button {
+	display: grid;
+	align-self: center;
+	background: transparent;
+	border: none;
+	justify-self: center;
+	outline: none;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+button:active {
+	border: none;
+	outline: none;
+}
+
+.menu-flags {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,56 @@
+{
+	"name": "web-app",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^5.8.2",
+		"eslint-config-airbnb": "^17.1.0",
+		"font-awesome": "^4.7.0",
+		"i18n": "^0.8.3",
+		"node-sass": "^4.11.0",
+		"prop-types": "^15.7.2",
+		"react": "^16.8.6",
+		"react-alice-carousel": "^1.13.13",
+		"react-country-region-selector": "^1.4.3",
+		"react-dom": "^16.8.6",
+		"react-flags-select": "^1.1.10",
+		"react-redux": "^7.0.3",
+		"react-router": "^5.0.0",
+		"react-router-dom": "^5.0.0",
+		"react-router-redux": "^4.0.8",
+		"react-scripts": "3.0.0",
+		"react-select": "^2.4.4",
+		"redux": "^4.0.1",
+		"redux-thunk": "^2.3.0",
+		"validate.js": "^0.12.0"
+	},
+	"scripts": {
+		"start": "node_modules/.bin/react-scripts start",
+		"build": "node_modules/.bin/react-scripts build",
+		"test": "node_modules/.bin/react-scripts test",
+		"eject": "node_modules/.bin/react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"babel-eslint": "^10.0.1",
+		"babel-loader": "^8.0.5",
+		"eslint": "^5.16.0",
+		"eslint-loader": "^2.1.2",
+		"eslint-plugin-react": "^7.12.4",
+		"redux-devtools-extension": "^2.13.8"
+	}
+}
